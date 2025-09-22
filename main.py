@@ -34,4 +34,4 @@ lang = input(f"""
 Список доступных языков: 
 {LANGUAGES} 
 Напишите один из доступных языков: """)
-print(translator.translate(article, dest=lang))
+print(translator.translate(article, dest=lang).text)
